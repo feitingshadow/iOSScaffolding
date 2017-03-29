@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD41EEBD1E8C3A9F00ED1FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEBC1E8C3A9F00ED1FF1 /* main.m */; };
+		BD41EEC01E8C3A9F00ED1FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEBF1E8C3A9F00ED1FF1 /* AppDelegate.m */; };
+		BD41EEC31E8C3A9F00ED1FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEC21E8C3A9F00ED1FF1 /* ViewController.m */; };
+		BD41EEC61E8C3A9F00ED1FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD41EEC41E8C3A9F00ED1FF1 /* Main.storyboard */; };
+		BD41EEC91E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEC71E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodeld */; };
+		BD41EECB1E8C3A9F00ED1FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD41EECA1E8C3A9F00ED1FF1 /* Assets.xcassets */; };
+		BD41EECE1E8C3A9F00ED1FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD41EECC1E8C3A9F00ED1FF1 /* LaunchScreen.storyboard */; };
+		BD41EED91E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EED81E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.m */; };
+		BD41EEE41E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEE31E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.m */; };
+		BD41EF0E1E8C3AC200ED1FF1 /* SCAFAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEF21E8C3AC200ED1FF1 /* SCAFAnimationHelper.m */; };
+		BD41EF0F1E8C3AC200ED1FF1 /* SCAFDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEF51E8C3AC200ED1FF1 /* SCAFDownloader.m */; };
+		BD41EF101E8C3AC200ED1FF1 /* SCAFGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEF71E8C3AC200ED1FF1 /* SCAFGradientView.m */; };
+		BD41EF111E8C3AC200ED1FF1 /* SCAFImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEF91E8C3AC200ED1FF1 /* SCAFImageCache.m */; };
+		BD41EF121E8C3AC200ED1FF1 /* SCAFInputVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEFB1E8C3AC200ED1FF1 /* SCAFInputVerifier.m */; };
+		BD41EF131E8C3AC200ED1FF1 /* SCAFLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEFD1E8C3AC200ED1FF1 /* SCAFLocationManager.m */; };
+		BD41EF141E8C3AC200ED1FF1 /* SCAFNotificationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EEFF1E8C3AC200ED1FF1 /* SCAFNotificationsManager.m */; };
+		BD41EF151E8C3AC200ED1FF1 /* SCAFStackingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF011E8C3AC200ED1FF1 /* SCAFStackingView.m */; };
+		BD41EF161E8C3AC200ED1FF1 /* SCAFStoredData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF031E8C3AC200ED1FF1 /* SCAFStoredData.m */; };
+		BD41EF171E8C3AC200ED1FF1 /* SCAFView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF051E8C3AC200ED1FF1 /* SCAFView.m */; };
+		BD41EF181E8C3AC200ED1FF1 /* SCAFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF071E8C3AC200ED1FF1 /* SCAFViewController.m */; };
+		BD41EF191E8C3AC200ED1FF1 /* SCAFWrappingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF091E8C3AC200ED1FF1 /* SCAFWrappingView.m */; };
+		BD41EF1A1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF0B1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m */; };
+		BD41EF1B1E8C3AC200ED1FF1 /* UIView+SCAFView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF0D1E8C3AC200ED1FF1 /* UIView+SCAFView.m */; };
+		BD41EF291E8C3F4100ED1FF1 /* SCAFStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF281E8C3F4100ED1FF1 /* SCAFStringUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD41EED51E8C3A9F00ED1FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD41EEB01E8C3A9F00ED1FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD41EEB71E8C3A9F00ED1FF1;
+			remoteInfo = ScaffoldObjective;
+		};
+		BD41EEE01E8C3A9F00ED1FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD41EEB01E8C3A9F00ED1FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD41EEB71E8C3A9F00ED1FF1;
+			remoteInfo = ScaffoldObjective;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD41EEB81E8C3A9F00ED1FF1 /* ScaffoldObjective.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaffoldObjective.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD41EEBC1E8C3A9F00ED1FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD41EEBE1E8C3A9F00ED1FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD41EEBF1E8C3A9F00ED1FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD41EEC11E8C3A9F00ED1FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD41EEC21E8C3A9F00ED1FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD41EEC51E8C3A9F00ED1FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD41EEC81E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScaffoldObjective.xcdatamodel; sourceTree = "<group>"; };
+		BD41EECA1E8C3A9F00ED1FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD41EECD1E8C3A9F00ED1FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD41EECF1E8C3A9F00ED1FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD41EED41E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaffoldObjectiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD41EED81E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaffoldObjectiveTests.m; sourceTree = "<group>"; };
+		BD41EEDA1E8C3A9F00ED1FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD41EEDF1E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaffoldObjectiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD41EEE31E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaffoldObjectiveUITests.m; sourceTree = "<group>"; };
+		BD41EEE51E8C3A9F00ED1FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD41EEF11E8C3AC200ED1FF1 /* SCAFAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFAnimationHelper.h; sourceTree = "<group>"; };
+		BD41EEF21E8C3AC200ED1FF1 /* SCAFAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFAnimationHelper.m; sourceTree = "<group>"; };
+		BD41EEF31E8C3AC200ED1FF1 /* SCAFDataLoadingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFDataLoadingState.h; sourceTree = "<group>"; };
+		BD41EEF41E8C3AC200ED1FF1 /* SCAFDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFDownloader.h; sourceTree = "<group>"; };
+		BD41EEF51E8C3AC200ED1FF1 /* SCAFDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFDownloader.m; sourceTree = "<group>"; };
+		BD41EEF61E8C3AC200ED1FF1 /* SCAFGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFGradientView.h; sourceTree = "<group>"; };
+		BD41EEF71E8C3AC200ED1FF1 /* SCAFGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFGradientView.m; sourceTree = "<group>"; };
+		BD41EEF81E8C3AC200ED1FF1 /* SCAFImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFImageCache.h; sourceTree = "<group>"; };
+		BD41EEF91E8C3AC200ED1FF1 /* SCAFImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFImageCache.m; sourceTree = "<group>"; };
+		BD41EEFA1E8C3AC200ED1FF1 /* SCAFInputVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFInputVerifier.h; sourceTree = "<group>"; };
+		BD41EEFB1E8C3AC200ED1FF1 /* SCAFInputVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFInputVerifier.m; sourceTree = "<group>"; };
+		BD41EEFC1E8C3AC200ED1FF1 /* SCAFLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFLocationManager.h; sourceTree = "<group>"; };
+		BD41EEFD1E8C3AC200ED1FF1 /* SCAFLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFLocationManager.m; sourceTree = "<group>"; };
+		BD41EEFE1E8C3AC200ED1FF1 /* SCAFNotificationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFNotificationsManager.h; sourceTree = "<group>"; };
+		BD41EEFF1E8C3AC200ED1FF1 /* SCAFNotificationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFNotificationsManager.m; sourceTree = "<group>"; };
+		BD41EF001E8C3AC200ED1FF1 /* SCAFStackingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFStackingView.h; sourceTree = "<group>"; };
+		BD41EF011E8C3AC200ED1FF1 /* SCAFStackingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFStackingView.m; sourceTree = "<group>"; };
+		BD41EF021E8C3AC200ED1FF1 /* SCAFStoredData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFStoredData.h; sourceTree = "<group>"; };
+		BD41EF031E8C3AC200ED1FF1 /* SCAFStoredData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFStoredData.m; sourceTree = "<group>"; };
+		BD41EF041E8C3AC200ED1FF1 /* SCAFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFView.h; sourceTree = "<group>"; };
+		BD41EF051E8C3AC200ED1FF1 /* SCAFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFView.m; sourceTree = "<group>"; };
+		BD41EF061E8C3AC200ED1FF1 /* SCAFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFViewController.h; sourceTree = "<group>"; };
+		BD41EF071E8C3AC200ED1FF1 /* SCAFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFViewController.m; sourceTree = "<group>"; };
+		BD41EF081E8C3AC200ED1FF1 /* SCAFWrappingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFWrappingView.h; sourceTree = "<group>"; };
+		BD41EF091E8C3AC200ED1FF1 /* SCAFWrappingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFWrappingView.m; sourceTree = "<group>"; };
+		BD41EF0A1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SCAFAssociatedValues.h"; sourceTree = "<group>"; };
+		BD41EF0B1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SCAFAssociatedValues.m"; sourceTree = "<group>"; };
+		BD41EF0C1E8C3AC200ED1FF1 /* UIView+SCAFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SCAFView.h"; sourceTree = "<group>"; };
+		BD41EF0D1E8C3AC200ED1FF1 /* UIView+SCAFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCAFView.m"; sourceTree = "<group>"; };
+		BD41EF271E8C3F4100ED1FF1 /* SCAFStringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFStringUtility.h; sourceTree = "<group>"; };
+		BD41EF281E8C3F4100ED1FF1 /* SCAFStringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFStringUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD41EEB51E8C3A9F00ED1FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41EED11E8C3A9F00ED1FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41EEDC1E8C3A9F00ED1FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD41EEAF1E8C3A9F00ED1FF1 = {
+			isa = PBXGroup;
+			children = (
+				BD41EEBA1E8C3A9F00ED1FF1 /* ScaffoldObjective */,
+				BD41EED71E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests */,
+				BD41EEE21E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests */,
+				BD41EEB91E8C3A9F00ED1FF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD41EEB91E8C3A9F00ED1FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEB81E8C3A9F00ED1FF1 /* ScaffoldObjective.app */,
+				BD41EED41E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.xctest */,
+				BD41EEDF1E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD41EEBA1E8C3A9F00ED1FF1 /* ScaffoldObjective */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EF211E8C3E4400ED1FF1 /* Data Utils */,
+				BD41EF231E8C3E7F00ED1FF1 /* Helper */,
+				BD41EF241E8C3EB300ED1FF1 /* Caches */,
+				BD41EF201E8C3E1000ED1FF1 /* System Singletons */,
+				BD41EF1D1E8C3CDB00ED1FF1 /* Custom Views */,
+				BD41EF1E1E8C3D9900ED1FF1 /* Engine */,
+				BD41EEBE1E8C3A9F00ED1FF1 /* AppDelegate.h */,
+				BD41EEBF1E8C3A9F00ED1FF1 /* AppDelegate.m */,
+				BD41EEC11E8C3A9F00ED1FF1 /* ViewController.h */,
+				BD41EEC21E8C3A9F00ED1FF1 /* ViewController.m */,
+				BD41EEC41E8C3A9F00ED1FF1 /* Main.storyboard */,
+				BD41EECA1E8C3A9F00ED1FF1 /* Assets.xcassets */,
+				BD41EECC1E8C3A9F00ED1FF1 /* LaunchScreen.storyboard */,
+				BD41EECF1E8C3A9F00ED1FF1 /* Info.plist */,
+				BD41EEC71E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodeld */,
+				BD41EEBB1E8C3A9F00ED1FF1 /* Supporting Files */,
+			);
+			path = ScaffoldObjective;
+			sourceTree = "<group>";
+		};
+		BD41EEBB1E8C3A9F00ED1FF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEBC1E8C3A9F00ED1FF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD41EED71E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EED81E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.m */,
+				BD41EEDA1E8C3A9F00ED1FF1 /* Info.plist */,
+			);
+			path = ScaffoldObjectiveTests;
+			sourceTree = "<group>";
+		};
+		BD41EEE21E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEE31E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.m */,
+				BD41EEE51E8C3A9F00ED1FF1 /* Info.plist */,
+			);
+			path = ScaffoldObjectiveUITests;
+			sourceTree = "<group>";
+		};
+		BD41EF1D1E8C3CDB00ED1FF1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEF61E8C3AC200ED1FF1 /* SCAFGradientView.h */,
+				BD41EEF71E8C3AC200ED1FF1 /* SCAFGradientView.m */,
+				BD41EF001E8C3AC200ED1FF1 /* SCAFStackingView.h */,
+				BD41EF011E8C3AC200ED1FF1 /* SCAFStackingView.m */,
+				BD41EF041E8C3AC200ED1FF1 /* SCAFView.h */,
+				BD41EF051E8C3AC200ED1FF1 /* SCAFView.m */,
+				BD41EF081E8C3AC200ED1FF1 /* SCAFWrappingView.h */,
+				BD41EF091E8C3AC200ED1FF1 /* SCAFWrappingView.m */,
+			);
+			name = "Custom Views";
+			sourceTree = "<group>";
+		};
+		BD41EF1E1E8C3D9900ED1FF1 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EF1F1E8C3DA600ED1FF1 /* Categories */,
+				BD41EEF31E8C3AC200ED1FF1 /* SCAFDataLoadingState.h */,
+				BD41EF061E8C3AC200ED1FF1 /* SCAFViewController.h */,
+				BD41EF071E8C3AC200ED1FF1 /* SCAFViewController.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		BD41EF1F1E8C3DA600ED1FF1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EF0A1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.h */,
+				BD41EF0B1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m */,
+				BD41EF0C1E8C3AC200ED1FF1 /* UIView+SCAFView.h */,
+				BD41EF0D1E8C3AC200ED1FF1 /* UIView+SCAFView.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		BD41EF201E8C3E1000ED1FF1 /* System Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEFC1E8C3AC200ED1FF1 /* SCAFLocationManager.h */,
+				BD41EEFD1E8C3AC200ED1FF1 /* SCAFLocationManager.m */,
+				BD41EEFE1E8C3AC200ED1FF1 /* SCAFNotificationsManager.h */,
+				BD41EEFF1E8C3AC200ED1FF1 /* SCAFNotificationsManager.m */,
+			);
+			name = "System Singletons";
+			sourceTree = "<group>";
+		};
+		BD41EF211E8C3E4400ED1FF1 /* Data Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEF41E8C3AC200ED1FF1 /* SCAFDownloader.h */,
+				BD41EEF51E8C3AC200ED1FF1 /* SCAFDownloader.m */,
+				BD41EF021E8C3AC200ED1FF1 /* SCAFStoredData.h */,
+				BD41EF031E8C3AC200ED1FF1 /* SCAFStoredData.m */,
+			);
+			name = "Data Utils";
+			sourceTree = "<group>";
+		};
+		BD41EF231E8C3E7F00ED1FF1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEF11E8C3AC200ED1FF1 /* SCAFAnimationHelper.h */,
+				BD41EEF21E8C3AC200ED1FF1 /* SCAFAnimationHelper.m */,
+				BD41EEFA1E8C3AC200ED1FF1 /* SCAFInputVerifier.h */,
+				BD41EEFB1E8C3AC200ED1FF1 /* SCAFInputVerifier.m */,
+				BD41EF271E8C3F4100ED1FF1 /* SCAFStringUtility.h */,
+				BD41EF281E8C3F4100ED1FF1 /* SCAFStringUtility.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		BD41EF241E8C3EB300ED1FF1 /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				BD41EEF81E8C3AC200ED1FF1 /* SCAFImageCache.h */,
+				BD41EEF91E8C3AC200ED1FF1 /* SCAFImageCache.m */,
+			);
+			name = Caches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD41EEB71E8C3A9F00ED1FF1 /* ScaffoldObjective */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD41EEE81E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjective" */;
+			buildPhases = (
+				BD41EEB41E8C3A9F00ED1FF1 /* Sources */,
+				BD41EEB51E8C3A9F00ED1FF1 /* Frameworks */,
+				BD41EEB61E8C3A9F00ED1FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaffoldObjective;
+			productName = ScaffoldObjective;
+			productReference = BD41EEB81E8C3A9F00ED1FF1 /* ScaffoldObjective.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD41EED31E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD41EEEB1E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjectiveTests" */;
+			buildPhases = (
+				BD41EED01E8C3A9F00ED1FF1 /* Sources */,
+				BD41EED11E8C3A9F00ED1FF1 /* Frameworks */,
+				BD41EED21E8C3A9F00ED1FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD41EED61E8C3A9F00ED1FF1 /* PBXTargetDependency */,
+			);
+			name = ScaffoldObjectiveTests;
+			productName = ScaffoldObjectiveTests;
+			productReference = BD41EED41E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD41EEDE1E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD41EEEE1E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjectiveUITests" */;
+			buildPhases = (
+				BD41EEDB1E8C3A9F00ED1FF1 /* Sources */,
+				BD41EEDC1E8C3A9F00ED1FF1 /* Frameworks */,
+				BD41EEDD1E8C3A9F00ED1FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD41EEE11E8C3A9F00ED1FF1 /* PBXTargetDependency */,
+			);
+			name = ScaffoldObjectiveUITests;
+			productName = ScaffoldObjectiveUITests;
+			productReference = BD41EEDF1E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD41EEB01E8C3A9F00ED1FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Stephen Johnson";
+				TargetAttributes = {
+					BD41EEB71E8C3A9F00ED1FF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RTQMYAGD7L;
+						ProvisioningStyle = Automatic;
+					};
+					BD41EED31E8C3A9F00ED1FF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RTQMYAGD7L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD41EEB71E8C3A9F00ED1FF1;
+					};
+					BD41EEDE1E8C3A9F00ED1FF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RTQMYAGD7L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD41EEB71E8C3A9F00ED1FF1;
+					};
+				};
+			};
+			buildConfigurationList = BD41EEB31E8C3A9F00ED1FF1 /* Build configuration list for PBXProject "ScaffoldObjective" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD41EEAF1E8C3A9F00ED1FF1;
+			productRefGroup = BD41EEB91E8C3A9F00ED1FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD41EEB71E8C3A9F00ED1FF1 /* ScaffoldObjective */,
+				BD41EED31E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests */,
+				BD41EEDE1E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD41EEB61E8C3A9F00ED1FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD41EECE1E8C3A9F00ED1FF1 /* LaunchScreen.storyboard in Resources */,
+				BD41EECB1E8C3A9F00ED1FF1 /* Assets.xcassets in Resources */,
+				BD41EEC61E8C3A9F00ED1FF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41EED21E8C3A9F00ED1FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41EEDD1E8C3A9F00ED1FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD41EEB41E8C3A9F00ED1FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD41EF0E1E8C3AC200ED1FF1 /* SCAFAnimationHelper.m in Sources */,
+				BD41EF111E8C3AC200ED1FF1 /* SCAFImageCache.m in Sources */,
+				BD41EF291E8C3F4100ED1FF1 /* SCAFStringUtility.m in Sources */,
+				BD41EF101E8C3AC200ED1FF1 /* SCAFGradientView.m in Sources */,
+				BD41EF131E8C3AC200ED1FF1 /* SCAFLocationManager.m in Sources */,
+				BD41EEC31E8C3A9F00ED1FF1 /* ViewController.m in Sources */,
+				BD41EEC01E8C3A9F00ED1FF1 /* AppDelegate.m in Sources */,
+				BD41EEBD1E8C3A9F00ED1FF1 /* main.m in Sources */,
+				BD41EF181E8C3AC200ED1FF1 /* SCAFViewController.m in Sources */,
+				BD41EF151E8C3AC200ED1FF1 /* SCAFStackingView.m in Sources */,
+				BD41EF141E8C3AC200ED1FF1 /* SCAFNotificationsManager.m in Sources */,
+				BD41EEC91E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodeld in Sources */,
+				BD41EF121E8C3AC200ED1FF1 /* SCAFInputVerifier.m in Sources */,
+				BD41EF171E8C3AC200ED1FF1 /* SCAFView.m in Sources */,
+				BD41EF161E8C3AC200ED1FF1 /* SCAFStoredData.m in Sources */,
+				BD41EF1B1E8C3AC200ED1FF1 /* UIView+SCAFView.m in Sources */,
+				BD41EF0F1E8C3AC200ED1FF1 /* SCAFDownloader.m in Sources */,
+				BD41EF1A1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m in Sources */,
+				BD41EF191E8C3AC200ED1FF1 /* SCAFWrappingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41EED01E8C3A9F00ED1FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD41EED91E8C3A9F00ED1FF1 /* ScaffoldObjectiveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD41EEDB1E8C3A9F00ED1FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD41EEE41E8C3A9F00ED1FF1 /* ScaffoldObjectiveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD41EED61E8C3A9F00ED1FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD41EEB71E8C3A9F00ED1FF1 /* ScaffoldObjective */;
+			targetProxy = BD41EED51E8C3A9F00ED1FF1 /* PBXContainerItemProxy */;
+		};
+		BD41EEE11E8C3A9F00ED1FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD41EEB71E8C3A9F00ED1FF1 /* ScaffoldObjective */;
+			targetProxy = BD41EEE01E8C3A9F00ED1FF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD41EEC41E8C3A9F00ED1FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD41EEC51E8C3A9F00ED1FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD41EECC1E8C3A9F00ED1FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD41EECD1E8C3A9F00ED1FF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD41EEE61E8C3A9F00ED1FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD41EEE71E8C3A9F00ED1FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD41EEE91E8C3A9F00ED1FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RTQMYAGD7L;
+				INFOPLIST_FILE = ScaffoldObjective/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scaffold.ScaffoldObjective;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD41EEEA1E8C3A9F00ED1FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RTQMYAGD7L;
+				INFOPLIST_FILE = ScaffoldObjective/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scaffold.ScaffoldObjective;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD41EEEC1E8C3A9F00ED1FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RTQMYAGD7L;
+				INFOPLIST_FILE = ScaffoldObjectiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scaffold.ScaffoldObjectiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaffoldObjective.app/ScaffoldObjective";
+			};
+			name = Debug;
+		};
+		BD41EEED1E8C3A9F00ED1FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RTQMYAGD7L;
+				INFOPLIST_FILE = ScaffoldObjectiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scaffold.ScaffoldObjectiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaffoldObjective.app/ScaffoldObjective";
+			};
+			name = Release;
+		};
+		BD41EEEF1E8C3A9F00ED1FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RTQMYAGD7L;
+				INFOPLIST_FILE = ScaffoldObjectiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scaffold.ScaffoldObjectiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaffoldObjective;
+			};
+			name = Debug;
+		};
+		BD41EEF01E8C3A9F00ED1FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = RTQMYAGD7L;
+				INFOPLIST_FILE = ScaffoldObjectiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scaffold.ScaffoldObjectiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaffoldObjective;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD41EEB31E8C3A9F00ED1FF1 /* Build configuration list for PBXProject "ScaffoldObjective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41EEE61E8C3A9F00ED1FF1 /* Debug */,
+				BD41EEE71E8C3A9F00ED1FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD41EEE81E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjective" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41EEE91E8C3A9F00ED1FF1 /* Debug */,
+				BD41EEEA1E8C3A9F00ED1FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD41EEEB1E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjectiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41EEEC1E8C3A9F00ED1FF1 /* Debug */,
+				BD41EEED1E8C3A9F00ED1FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD41EEEE1E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjectiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD41EEEF1E8C3A9F00ED1FF1 /* Debug */,
+				BD41EEF01E8C3A9F00ED1FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD41EEC71E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD41EEC81E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodel */,
+			);
+			currentVersion = BD41EEC81E8C3A9F00ED1FF1 /* ScaffoldObjective.xcdatamodel */;
+			path = ScaffoldObjective.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD41EEB01E8C3A9F00ED1FF1 /* Project object */;
+}
