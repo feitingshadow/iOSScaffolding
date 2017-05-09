@@ -40,7 +40,7 @@ static NSString * const kStoredDataFilename = @"SCAFAppdata.plist";
     
     NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSLocalDomainMask, NO);
     self.docsDirURL = (NSURL*)[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask][0];
-    self.fullPathString = [[self.docsDirURL absoluteString] stringByAppendingPathComponent:_fullPathString];
+    self.fullPathString = [self.docsDirURL.path stringByAppendingPathComponent:kStoredDataFilename];
     
     if([[NSFileManager defaultManager] fileExistsAtPath:self.fullPathString]) {
         self.dataStoreDict = [NSKeyedUnarchiver unarchiveObjectWithFile:self.fullPathString];
