@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SCAFDownloader.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    SCAFDownloader * sDownloader = [[SCAFDownloader alloc] init];
+    [sDownloader login]; //test
 }
 
 

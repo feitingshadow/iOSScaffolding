@@ -12,5 +12,6 @@
 
 @property (nonatomic, assign) IBInspectable BOOL isVertical;
 @property (nonatomic, assign) IBInspectable BOOL isHorizontal; //Overrides
+@property (nonatomic, assign) IBInspectable BOOL sizeToMatchSubviews;
 
 @end

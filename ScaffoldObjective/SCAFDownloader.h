@@ -10,4 +10,6 @@
 
 @interface SCAFDownloader : NSObject
 
+- (void) login;
+
 @end

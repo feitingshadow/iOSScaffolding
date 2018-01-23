@@ -37,7 +37,7 @@
         CGGradientRef gradient = CGGradientCreateWithColors(colorSpace, (CFArrayRef)@[(id)self.fromColor.CGColor, (id)self.toColor.CGColor], pointLocations);
         
         CGPoint startPt = CGPointMake(0,0);
-        CGPoint endPt = self.isHorizontal ? CGPointMake(1,0) : CGPointMake(0, 1);
+        CGPoint endPt = self.isHorizontal ? CGPointMake(self.bounds.size.width,0) : CGPointMake(0, self.bounds.size.height);
         
         CGContextDrawLinearGradient(contextRef, gradient, startPt, endPt, kCGGradientDrawsBeforeStartLocation);
         

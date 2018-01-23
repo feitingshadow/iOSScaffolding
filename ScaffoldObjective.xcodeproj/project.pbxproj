@@ -31,6 +31,8 @@
 		BD41EF1A1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF0B1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m */; };
 		BD41EF1B1E8C3AC200ED1FF1 /* UIView+SCAFView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF0D1E8C3AC200ED1FF1 /* UIView+SCAFView.m */; };
 		BD41EF291E8C3F4100ED1FF1 /* SCAFStringUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41EF281E8C3F4100ED1FF1 /* SCAFStringUtility.m */; };
+		BD6EA29220111B72004FAF3D /* SCAFSelectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6EA29120111B72004FAF3D /* SCAFSelectableView.m */; };
+		BDC18D56200D0CD600F318E9 /* SCAFScrollingStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC18D55200D0CD600F318E9 /* SCAFScrollingStackView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,10 @@
 		BD41EF0D1E8C3AC200ED1FF1 /* UIView+SCAFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SCAFView.m"; sourceTree = "<group>"; };
 		BD41EF271E8C3F4100ED1FF1 /* SCAFStringUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAFStringUtility.h; sourceTree = "<group>"; };
 		BD41EF281E8C3F4100ED1FF1 /* SCAFStringUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAFStringUtility.m; sourceTree = "<group>"; };
+		BD6EA29020111B72004FAF3D /* SCAFSelectableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAFSelectableView.h; sourceTree = "<group>"; };
+		BD6EA29120111B72004FAF3D /* SCAFSelectableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAFSelectableView.m; sourceTree = "<group>"; };
+		BDC18D54200D0CD600F318E9 /* SCAFScrollingStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAFScrollingStackView.h; sourceTree = "<group>"; };
+		BDC18D55200D0CD600F318E9 /* SCAFScrollingStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAFScrollingStackView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +212,10 @@
 				BD41EF051E8C3AC200ED1FF1 /* SCAFView.m */,
 				BD41EF081E8C3AC200ED1FF1 /* SCAFWrappingView.h */,
 				BD41EF091E8C3AC200ED1FF1 /* SCAFWrappingView.m */,
+				BDC18D54200D0CD600F318E9 /* SCAFScrollingStackView.h */,
+				BDC18D55200D0CD600F318E9 /* SCAFScrollingStackView.m */,
+				BD6EA29020111B72004FAF3D /* SCAFSelectableView.h */,
+				BD6EA29120111B72004FAF3D /* SCAFSelectableView.m */,
 			);
 			name = "Custom Views";
 			sourceTree = "<group>";
@@ -418,6 +428,7 @@
 				BD41EF101E8C3AC200ED1FF1 /* SCAFGradientView.m in Sources */,
 				BD41EF131E8C3AC200ED1FF1 /* SCAFLocationManager.m in Sources */,
 				BD41EEC31E8C3A9F00ED1FF1 /* ViewController.m in Sources */,
+				BDC18D56200D0CD600F318E9 /* SCAFScrollingStackView.m in Sources */,
 				BD41EEC01E8C3A9F00ED1FF1 /* AppDelegate.m in Sources */,
 				BD41EEBD1E8C3A9F00ED1FF1 /* main.m in Sources */,
 				BD41EF181E8C3AC200ED1FF1 /* SCAFViewController.m in Sources */,
@@ -431,6 +442,7 @@
 				BD41EF0F1E8C3AC200ED1FF1 /* SCAFDownloader.m in Sources */,
 				BD41EF1A1E8C3AC200ED1FF1 /* NSObject+SCAFAssociatedValues.m in Sources */,
 				BD41EF191E8C3AC200ED1FF1 /* SCAFWrappingView.m in Sources */,
+				BD6EA29220111B72004FAF3D /* SCAFSelectableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +678,7 @@
 				BD41EEEA1E8C3A9F00ED1FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD41EEEB1E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjectiveTests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +687,7 @@
 				BD41EEED1E8C3A9F00ED1FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD41EEEE1E8C3A9F00ED1FF1 /* Build configuration list for PBXNativeTarget "ScaffoldObjectiveUITests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +696,7 @@
 				BD41EEF01E8C3A9F00ED1FF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -45,6 +45,8 @@
     
     CGFloat lastX = 0;
     CGFloat lastY = 0;
+    CGFloat maxWidth = 0;
+    CGFloat maxHeight = 0;
     
     //Add Align, left/right/ctr
     for (UIView * subV in self.subviews) {
@@ -52,10 +54,20 @@
         if(self.isHorizontal) {
             subV.frame = CGRectMake(lastX + subV.leftMargin, lastY + subV.topMargin, subV.frame.size.width, subV.frame.size.height);
             lastX = subV.right + subV.rightMargin;
+            maxWidth = lastX;
         }
         else {
             subV.frame = CGRectMake(lastX + subV.leftMargin, lastY + subV.topMargin, subV.frame.size.width, subV.frame.size.height);
             lastY = subV.bottom + subV.bottomMargin;
+            maxHeight = lastY;
+        }
+    }
+    if(self.sizeToMatchSubviews == YES) {
+        if(self.isHorizontal) {
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, maxWidth, self.bounds.size.height);
+        }
+        else {
+            self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.bounds.size.width, maxHeight);
         }
     }
 }
